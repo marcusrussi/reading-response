@@ -1,0 +1,65 @@
+#app {
+    height: 100%;
+    width: 100%;
+    background-image: url("tinder.png");
+    background-size: cover;
+    margin: 0 0 0 0;
+}
+
+h1 {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.t-button {
+    position: absolute;
+    top: 81%;
+    left: 23%;
+    width: 55%;
+    height: 15%;
+}
+
+.t-photo {
+    position: absolute;
+    left: 3.3%;
+    top: 13.2%;
+    background-color: white;
+    background-size: cover;
+    width: 93.5%;
+    height: 52.8%;
+    border-radius: 6px;
+}
+
+.t-name {
+    position: absolute;
+    left: 8%;
+    top: 69%;
+    /*background-color: red;*/
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.9em;
+}
+
+.t-name-age {
+    font-weight: 300;
+}
+
+
+.example-enter {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  /*transform: rotate(0);*/
+  transition: opacity  1000ms ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  /*transform: rotate(0.3turn);*/
+  transition: opacity  1000ms ease-in;
+}
